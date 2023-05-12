@@ -12,6 +12,6 @@ public class Stock {
     String figi;
     String name;
     String type;
-    String currency;
+    Currency currency;
     String source;
 }
