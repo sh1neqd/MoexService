@@ -12,10 +12,10 @@ moex:
   spring:
     cache:
       caffeine:
-        spec: maximumSize=48,expireAfterAccess=1h
+        spec: maximumSize=48,expireAfterAccess=2h
 
   logging:
     level:
-      ru.dakon.CurrencyCbrService.cbrclient: INFO
+      ru.dakon: INFO
     file:
       name: logs/MoexStockService.log
